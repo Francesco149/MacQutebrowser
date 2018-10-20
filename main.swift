@@ -18,7 +18,6 @@ func shell(_ args: String...) {
 
 class AppDelegate: NSObject, NSApplicationDelegate {
   func applicationWillFinishLaunching(_ notif: Notification) {
-    shell(qutebrowser)
     NSAppleEventManager.shared().setEventHandler(self,
       andSelector: #selector(onURL(_:replyEvent:)),
       forEventClass: AEEventClass(kInternetEventClass),
@@ -26,6 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
 
   func applicationDidFinishLaunching(_ notif: Notification) {
+    shell(qutebrowser)
     NSApplication.shared.terminate(self)
   }
 
