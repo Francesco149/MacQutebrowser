@@ -5,7 +5,11 @@ it recognized as a browser/url handler
 
 ```sh
 brew install Francesco149/homebrew-tap/qutebrowser
+cp -r /usr/local/opt/qutebrowser/MacQutebrowser.app /Applications
 ```
+
+and now you can set MacQutebrowser as your default browser and
+run it from spotlight
 
 technically the brew tap will install this but you can compile
 from source if you want
