@@ -1,0 +1,12 @@
+name: MacQutebrowser
+settings:
+  OTHER_SWIFT_FLAGS: -warnings-as-errors
+targets:
+  MacQutebrowser:
+    type: application
+    platform: macOS
+    deploymentTarget: "10.10"
+    sources:
+    - main.swift
+    - Info.plist
+    - qutebrowser/icons/qutebrowser.icns

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDisplayName</key>
+  <string>MacQutebrowser</string>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeExtensions</key>
+      <array>
+        <string>html</string>
+        <string>htm</string>
+      </array>
+      <key>CFBundleTypeMIMETypes</key>
+      <array>
+        <string>text/html</string>
+      </array>
+      <key>CFBundleTypeName</key>
+      <string>HTML document</string>
+      <key>CFBundleTypeOSTypes</key>
+      <array>
+        <string>HTML</string>
+      </array>
+      <key>CFBundleTypeRole</key>
+      <string>Viewer</string>
+    </dict>
+    <dict>
+      <key>CFBundleTypeExtensions</key>
+      <array>
+        <string>xhtml</string>
+      </array>
+      <key>CFBundleTypeMIMETypes</key>
+      <array>
+        <string>text/xhtml</string>
+      </array>
+      <key>CFBundleTypeName</key>
+      <string>XHTML document</string>
+      <key>CFBundleTypeRole</key>
+      <string>Viewer</string>
+    </dict>
+  </array>
+  <key>CFBundleExecutable</key>
+  <string>MacQutebrowser</string>
+  <key>CFBundleIconFile</key>
+  <string>qutebrowser.icns</string>
+  <key>CFBundleIdentifier</key>
+  <string>org.qt-project.Qt.QtWebEngineCore</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>MacQutebrowser</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0.0</string>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>http(s) URL</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>http</string>
+        <string>https</string>
+      </array>
+    </dict>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>local file URL</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>file</string>
+      </array>
+    </dict>
+  </array>
+  <key>CFBundleVersion</key>
+  <string>1.0.0</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+</dict>
+</plist>
