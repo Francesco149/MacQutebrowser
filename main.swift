@@ -45,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     NSLog("handling \(urlString)")
     switch url.scheme {
       case "http", "https", "file":
-        shell(qutebrowser, ":open -t \(urlString)")
+        shell(qutebrowser, "--", ":open -t \(urlString)")
       default:
         break
     }
